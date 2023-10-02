@@ -7,10 +7,8 @@ class FizzBuzz:
                 resultat += "FrisBee"
             elif i%5 == 0 :
                 resultat += "Buzz"
-
-            elif i%3 ==0 :
+            elif i%3 == 0 :
                 resultat += "Fizz"
-            
             else :
                 resultat += str(i)
 
